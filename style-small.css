@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 70px 70px 70px 70px;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    align-items: center;
+    padding: 15px 20px;
+  }
+.logo img{
+    width:50px;
+}
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+}
+.bar{
+    background:black;
+    height: 3px;
+    width: 30px;
+    margin: 3px 0;
+}
+hr{
+    border: none;
+    background-color: orange;
+    height: 2px;
+    margin: 20px 0;
+    
+}
+
+.banner{
+    text-align: center;
+    padding: 20px;
+}
+
+
+    .banner-tittle{
+        font-size: 56px;
+font-weight: 600;
+text-align: left;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+
+}
+
+    .banner h1 .orange{
+        color:#FEA301;
+    
+    
+}
+    .banner h1 .blue-title{
+       color: #01ACFD
+}
+.banner-discription{
+    color: #111111;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 24;
+    margin: 20px;
+    
+}
+
+.enroll-btn{
+    text-align: center;
+   padding: 10px 20px;
+   background-color: #111111;
+   color:white;
+   border-radius: 12px;
+   border: none;
+}
+/* curriculum */
+.curriculum{
+    text-align: center;
+    background-image: url(../assets/bg.png);
+    padding: 30px 0;
+
+}
+
+.curriculum-cards{
+    flex-direction: column;
+    gap:15px;
+}
+.card1{
+padding: 15px;
+border-radius: 12px;
+
+border: 0.64px solid rgb(222, 245, 255);
+
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+margin-bottom: 20px;
+
+
+}
+.card2{
+    box-sizing: border-box;
+border: 0.64px solid rgb(255, 244, 220);
+border-radius: 12px;
+
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+margin-bottom: 20px;
+}
+
+.card3{
+
+border: 0.64px solid rgb(242, 232, 255);
+border-radius: 12px;
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+margin-bottom: 20px;
+}
+.read-more{
+    text-decoration: none;
+}
+
+/* stories */
+.stories{
+    background-image: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+ 
+
+
+}
+
+.stories h2{
+    font-size:24px;
+    margin-bottom: 20px;
+    
+}
+.story-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:15px;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.story-card img{
+    border-radius: 12px;
+
+}
+
+    .story-date{
+    
+        padding: 5px 10px;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius:15px;
+        color: white;
+        text-align:right;
+    
+    }
+    .blue{background-color: #3CD8E8;}
+    .greenyellow{background-color: #95B226;}
+    .purple{background-color: #5D58F0;}
+    .green{background-color:#95B226;}
+    .view-all-btn{
+        border-radius: 12px;
+    background: rgb(17, 17, 17);
+    width: 137px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    margin: 80px 0px;
+    }
+    .view-all-btn:hover{
+        background: #333;
+    }
+
+    @media(max-width:768px){
+        .story-container{
+            flex-direction: column;
+        }
+    }
+    
+    /* footer style */
+.footer{
+    background-color: #01ACFD;
+    color: white;
+    padding: 20px 10px;
+}
+.footer-container{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap:20px;
+}
+
+/* Logo Description */
+.footer-left .logo{
+    display: flex;
+}
+
+.footer-left h2{
+     
+    font-size: 4px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.footer-left span{
+    font-weight: 500;
+    font-size: 42.14px;
+}
+.footer-left p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.footer-middle h3,.footer-right h3{
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.footer-middle ul  {
+    list-style: none;
+    padding: 0px;
+    
+}
+.footer-middle  li a{
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
